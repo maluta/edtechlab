@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
   var btnRestore = document.getElementById('btnRestore');
 
   btnLogo.addEventListener('click', function() {
-    chrome.tabs.executeScript(null, {file: "_logo.js"});
+    chrome.tabs.executeScript(null, {file: "logo.js"});
   }, false);
 
   btnHeader.addEventListener('click', function() {
-    chrome.tabs.executeScript(null, {file: "_header.js"});
+    chrome.tabs.executeScript(null, {file: "header.js"});
   }, false);
 
   btnRestore.addEventListener('click', function() {
