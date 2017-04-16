@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "EDTECH LAB: KA",
+  "description": "This extension will change Khan Academy's UX",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab","tabs","https://*.khanacademy.org/*"]
+}
